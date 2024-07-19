@@ -18,16 +18,16 @@ const Page2= lazy(() =>
 
 const router = createBrowserRouter([
   {
-    path: "/Facer/",
+    path: "/FacerRepo/",
     element: <App />,
     
     children: [
       {
-        path: "/Facer/", 
-        element: <Navigate to="/Facer/main" />, 
+        path: "/FacerRepo/", 
+        element: <Navigate to="/FacerRepo/main" />, 
       },
       {
-        path: "/Facer/main",
+        path: "/FacerRepo/main",
         element: <>
         <Suspense fallback={<Loader />}>
           <Page1 />
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       </>,
       },
       {
-        path: "/Facer/page2",
+        path: "/FacerRepo/page2",
         element: <>
         <Suspense fallback={<Loader />}>
           <Page2 />
