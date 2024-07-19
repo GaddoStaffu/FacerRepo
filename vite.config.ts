@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
         // REPO-NAME
-  base: "/Facer",
+  base: "/FacerRepo",
   plugins: [react()],
   resolve: {
     alias: {
